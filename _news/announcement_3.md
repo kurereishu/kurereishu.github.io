@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:🗿
+Inició el curso báisco de python con más de 8 horas en YouTube :sparkles: :smile:🗿
