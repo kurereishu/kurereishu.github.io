@@ -2,7 +2,7 @@
 layout: about
 title: Sobre mi
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Estudiante de Ingeniería en Ciencias de la Computación. Interesado en la cCiberseguridad y la programación.
+subtitle: <a href='#'>Affiliations</a>. Estudiante de Ingeniería en Ciencias de la Computación. Interesado en la Ciberseguridad y la programación.
 
 profile:
   align: right
