@@ -2,7 +2,7 @@
 layout: about
 title: Sobre mi
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Estudiante de Ingeniería en Ciencias de la Computación. Interesado en la Ciberseguridad y la programación.
+subtitle: Estudiante de <a href='https://webhistorico.epn.edu.ec/oferta-academica/grado/ingenieria-tecnologia/carreras-de-grado/rra-computacion/'> Ingeniería en Ciencias de la Computación.</a>. Interesado en la Ciberseguridad y la programación.
 
 profile:
   align: right
@@ -11,10 +11,10 @@ profile:
   more_info: >
     <p>Escuela Politécninca Nacional</p>
     <p>Facultad de Ingeniería de Sistemas</p>
-    <p> Estudiante - Ing. Ciencias de la Computación</p>
+    <p>Estudiante - Ing. Ciencias de la Computación</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}" NO SE VEN LOS ARTICULOS
+social: false # includes social icons at the bottom of the page NO SE VEN LAS REDES SOCIALES
 
 announcements:
   enabled: true # includes a list of news items
@@ -22,7 +22,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false #No se ven las ultimas publicaciones 
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
