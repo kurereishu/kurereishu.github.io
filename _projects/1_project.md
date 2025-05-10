@@ -17,13 +17,14 @@ It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
---->
+
     ---
     layout: page
     title: project
     description: a project with a background image
     img: /assets/img/12.jpg
     ---
+--->
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -52,7 +53,7 @@ La pestaña de cateogorías permite almacenar y gestionar las categorías de los
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/producto_Sis_Ventas.jpg" title="Categoría" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/producto_Sis_Ventas.jpg" title="Producto" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -62,15 +63,46 @@ La pestaña de cateogorías permite almacenar y gestionar las categorías de los
 La pestaña de productos nos permite almacenar y gestionar los productos mismos que van a interactuar con las categorías y para la creación de las facturas.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/cliente_Sis_Ventas.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/cli_Sis_Ventas.jpg" title="Cliente" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/fact_Sis_Ventas.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/fact_Sis_Ventas.jpg" title="Factura" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     Productos del sistema de ventas y factura generada
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/cli_Sis_Ventas.jpg" title="Cliente" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    clientes del sistema de ventas
+</div>
+
+La pestaña de clientes nos permite almacenar y gestionar los clientes mismos que van a interactuar con los productos y la creación de las facturas.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/factura_Sis_Ventas.jpg" title="Factura" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    factura del sistema de ventas
+</div>
+
+La pestaña de facturas nos permite almacenar y gestionar las facturas mismas que van a interactuar con los productos y el cliente para obtener la factura en PDF.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/fact_Sis_Ventas.jpg" title="Factura PDF" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    factura del sistema de ventas en PDF
 </div>
 
 El sistema de ventas desarollado en Java y utilizando MySQL nos ofrece una solución robusta y eficiente para la gestión de ventas además de la integración de Java para la lógica de negocio y MySQL para el almacenamiento de datos nos proporciona una plataforma confiable y escalabre para el crecimiento futuro del negocio.
