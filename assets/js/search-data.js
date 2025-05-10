@@ -440,18 +440,18 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
             },},{id: "news-empecé-a-aprender-un-poco-más-sobre-visual-studio-code-y-empezarlo-a-usar-más-seguido-para-mi-día-a-día-open-mouth-dash",
           title: 'Empecé a aprender un poco más sobre Visual Studio Code y empezarlo a...',
           description: "",
           section: "News",},{id: "news-inició-el-curso-báisco-de-python-con-más-de-8-horas-en-youtube-sparkles-smile",
           title: 'Inició el curso báisco de python con más de 8 horas en YouTube...',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",},{id: "news-culminación-del-curso-quot-fundamentos-de-python-1-quot",
+          title: 'Culminación del curso &amp;quot;Fundamentos de Python 1&amp;quot;',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
