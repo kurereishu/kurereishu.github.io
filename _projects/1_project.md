@@ -1,12 +1,16 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: Sistema de ventas
+description: Un sistema de ventas en Java con MySQL
 img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: true
 ---
+
+Este sistema de ventas está desarollado en Java y además emplea MySQL como base de datos que permite almacenarla información de productos, clientes y facturas. La interfaz gráfica está diseñada con el propósito de facilitar la gestión de las ventas lo que permite a los usuarios añadir, actualizar y eliminar categorías, productos, clientes además de calcular totales y el registro de las ventas cuenta con la generación de una factura en formato PDF.
+
+
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
