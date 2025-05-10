@@ -5,8 +5,81 @@ description: Un sistema de ventas en Java con MySQL
 img: assets/img/producto_Sis_Ventas.jpg
 importance: 1
 category: work
-related_publications: true
+related_publications: false #MUESTRA EN EL PIE DE LA PÁGINA REFERENCIAS
 ---
+
+El proyecto usa tablas de MySQL para almacenar datos de ventas, productos y clientes. El sistema permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en la base de datos. Las tablas se crearon de la siguiente manera:
+
+    
+    CREATE DATABASE dbjavamysql;
+    USE dbjavamysql;
+
+    CREATE TABLE tb_usuario(
+        idUsuario int(11) AUTO_INCREMENT PRIMARY KEY,
+        nombre varchar(30) NOT NULL,
+        apellido varchar(30) NOT NULL,
+        usuario varchar(15) NOT NULL,
+        password varchar(15) NOT NULL,
+        telefono varchar(15) NOT NULL,
+        estado int(1) NOT NULL
+    );
+
+    Insertar datos en tabla usuarios para el login
+    INSERT INTO tb_usuario(nombre, apellido, usuario, password, telefono, estado)
+    VALUES("nombre", "apellido", "usuarioLogin", "password","telefono",1);
+
+    CREATE TABLE tb_cliente(
+        idCliente int(11) AUTO_INCREMENT PRIMARY KEY,
+        nombre varchar(30) NOT NULL,
+        apellido varchar(30) NOT NULL,
+        cedula varchar(15) NOT NULL,
+        telefono varchar(15) NOT NULL,
+        direccion varchar(100) NOT NULL,
+        estado int(1) NOT NULL
+    );
+
+    CREATE TABLE tb_categoria(
+        idCategoria int(11) AUTO_INCREMENT PRIMARY KEY,
+        descripcion varchar(200) NOT NULL,
+        estado int(1) NOT NULL
+    );
+
+    CREATE TABLE tb_producto(
+        idProducto int(11) AUTO_INCREMENT PRIMARY KEY,
+        nombre varchar(100) NOT NULL,
+        cantidad int(11) NOT NULL,
+        precio double(10,2) NOT NULL,
+        descripcion varchar(200) NOT NULL,
+        porcentajeIva int(2) NOT NULL,
+        idCategoria int(11) NOT NULL,
+        estado int(1) NOT NULL,
+        FOREIGN KEY (idCategoria) REFERENCES tb_categoria(idCategoria)
+    );
+
+    CREATE TABLE tb_cabecera_venta(
+        idCabeceraVenta int(11) AUTO_INCREMENT PRIMARY KEY,
+        idCliente int(11) NOT NULL,
+        valorPagar double(10,2) NOT NULL,
+        fechaVenta date NOT NULL,
+        estado int(1) NOT NULL,
+        FOREIGN KEY (idCliente) REFERENCES tb_cliente(idCliente)
+    );
+
+    CREATE TABLE tb_detalle_venta(
+        idDetalleVenta int(11) AUTO_INCREMENT PRIMARY KEY, 
+        idCabeceraVenta int(11) NOT NULL,
+        idProducto int(11) NOT NULL,
+        cantidad int(11) NOT NULL,
+        precioUnitario double(10,2) NOT NULL,
+        subtotal double(10,2) NOT NULL,
+        
+        iva double(10,2) NOT NULL,
+        totalPagar double(10,2) NOT NULL,
+        estado int(1) NOT NULL,
+        FOREIGN KEY (idCabeceraVenta) REFERENCES tb_cabecera_venta(idCabeceraVenta),
+        FOREIGN KEY (idProducto) REFERENCES tb_producto(idProducto)
+    );
+    
 
 Este sistema de ventas está desarollado en Java y además emplea MySQL como base de datos que permite almacenarla información de productos, clientes y facturas. La interfaz gráfica está diseñada con el propósito de facilitar la gestión de las ventas lo que permite a los usuarios añadir, actualizar y eliminar categorías, productos, clientes además de calcular totales y el registro de las ventas cuenta con la generación de una factura en formato PDF.
 

@@ -4,7 +4,7 @@ title: project 7
 description: with background image
 img: assets/img/4.jpg
 importance: 1
-category: work
+category: # SI NO TIENE CATEGORIA SEA work o fun, la página no se va a mostrar en projects
 related_publications: true
 ---
 
