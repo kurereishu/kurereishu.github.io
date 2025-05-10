@@ -1,14 +1,30 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: Culminación del curso "Fundamentos de Python 1"
+date: 2025-05-08 20:00:00-0400
 inline: false
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
-
+El curso ofrecido de python por netacad de "Fundamentos de Python 1" en la plataforma de Cisco fue una experiencia enriquecedora y muy completa.
 ---
+
+Lo que ofrece el curso de Fundamentos de Python 1 principalmente abarca los siguientes temas:
+### Lista de temas
+<ul>
+    <li>Introducción a Python</li>
+    <li>Variables y tipos de datos</li>
+    <li>Operadores y expresiones</li>
+    <li>Control de flujo</li>
+    <li>Listas y cadenas</li>
+    <li>Diccionarios</li>
+    <li>Funciones</li>
+    <li>Módulos</li>
+    <li>Manejo de errores</li>
+</ul>
+
+
+
 
 Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
 
