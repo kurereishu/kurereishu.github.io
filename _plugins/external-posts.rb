@@ -23,7 +23,13 @@ module ExternalPosts
     end
 
     def fetch_from_rss(site, src)
-      xml = HTTParty.get(src['rss_url']).body
+      begin
+        response = HTTParty.get(src['rss_url'])
+        xml = response.body if response.code == 200
+      rescue Errno::ECONNREFUSED, SocketError => e
+        Jekyll.logger.warn "ExternalPosts:", "Failed to fetch RSS feed from #{src['rss_url']}: #{e.message}"
+        return
+      end
       return if xml.nil?
       feed = Feedjira.parse(xml)
       process_entries(site, src, feed.entries)
@@ -87,7 +93,13 @@ module ExternalPosts
     end
 
     def fetch_content_from_url(url)
-      html = HTTParty.get(url).body
+      begin
+        response = HTTParty.get(url)
+        html = response.body if response.code == 200
+      rescue Errno::ECONNREFUSED, SocketError => e
+        Jekyll.logger.warn "ExternalPosts:", "Failed to fetch content from #{url}: #{e.message}"
+        return { title: '', content: '', summary: '' }
+      end
       parsed_html = Nokogiri::HTML(html)
 
       title = parsed_html.at('head title')&.text.strip || ''
