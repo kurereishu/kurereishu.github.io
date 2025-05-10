@@ -6,11 +6,10 @@ inline: false
 related_posts: false
 ---
 
-El curso ofrecido de python por netacad de "Fundamentos de Python 1" en la plataforma de Cisco fue una experiencia enriquecedora y muy completa.
----
+El curso *Fundamentos de Python 1* ofrecido por **Cisco Networking Academy** en su plataforma <a href = "https://www.netacad.com/es/courses/python-essentials-1?courseLang=es-XL"> Netacad</a> ha sido una fuente enriquecedora de conocimientos para principiantes y brindando una base sólida para seguir aprendiendo y aplicando el lenguaje de programación Python.
 
-Lo que ofrece el curso de Fundamentos de Python 1 principalmente abarca los siguientes temas:
-### Lista de temas
+---
+### Lo que ofrece el curso de Fundamentos de Python 1
 <ul>
     <li>Introducción a Python</li>
     <li>Variables y tipos de datos</li>
@@ -23,7 +22,8 @@ Lo que ofrece el curso de Fundamentos de Python 1 principalmente abarca los sigu
     <li>Manejo de errores</li>
 </ul>
 
-
+---
+> Al culminar el curso tuve acceso a un certificado de culminación , que es un reconocimiento de la Cisco Networking Academy por completar el curso de Fundamentos además de una insignia.
 
 
 Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
