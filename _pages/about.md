@@ -27,13 +27,21 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Estudiante de la carrera de Ciencias de la Computación
+Estudiante de Ciencias de la Computación
 
-Me gusta probar cosas nuevas desde el juego más simple como el tres en raya hasta algunos más llamativos e interesantes como los deportes extremos que este año me llamaron un poco la atención especialmete el tubing que me agradó demasiado.
-Me gusta mucho las músicas en inglés especialmente AC/DC, zztop, linkin park, Billy Idol, entre otras más. Respecto al motivo del porqué estoy estudiando una ingeniería se resume por el grán interés que tuve de niño en los géneros "mecha" principalmnete influenciado por Mazinger Z y por películas como Astroboy o un poco más modernas como el super hérore de márvel Iron Man o una más antigua "gigante de hierro" de los 1999.
+Soy un estudiante apasionado de la carrera de Ciencias de la Computación, siempre buscando nuevas experiencias y desafíos. Desde juegos simples como el tres en raya hasta deportes extremos, me encanta explorar y probar cosas nuevas. Este año, por ejemplo, descubrí el tubing, una actividad que me fascinó por la adrenalina y la conexión con la naturaleza.
 
-Mis pasatiempos son jugar videojuegos, de vez en cuando ver anime y aunque no lo hago muy seguido salir a montar bicicleta por alguna parte de esta hermosa ciudad.
+La música en inglés es una de mis grandes pasiones. Bandas como AC/DC, ZZ Top, Linkin Park y Billy Idol han sido una parte importante de mi vida. La energía y las letras de sus canciones me inspiran y me acompañan en mis momentos de estudio y relajación.
 
+Mi interés por la ingeniería comenzó en mi infancia, influenciado por los géneros "mecha" y las historias de robots. Mazinger Z fue una gran influencia, así como películas como Astroboy, Iron Man y El Gigante de Hierro. Estas historias despertaron mi curiosidad por la tecnología y la innovación, llevándome a elegir una carrera en Ciencias de la Computación.
+
+Actualmente, uno de mis mayores intereses es la ciberseguridad. He estado practicando con máquinas de prueba en Hack The Box, una plataforma que me permite desarrollar habilidades en un entorno seguro y controlado. La ciberseguridad es un campo fascinante y con mucho potencial para el futuro, y estoy emocionado por las oportunidades que ofrece.
+
+Además de la ciberseguridad, disfruto mucho de la programación. Este año estoy aprendiendo Python, un lenguaje versátil y poderoso, utilizando Visual Studio Code. Esta herramienta es muy útil y fácil de usar, lo que hace que el proceso de aprendizaje sea más agradable y eficiente.
+
+En mi tiempo libre, me gusta jugar videojuegos como League of Legends, Halo y Genshin Impact. Estos juegos no solo son entretenidos, sino que también me permiten desarrollar habilidades estratégicas y de trabajo en equipo. También disfruto viendo anime, una forma de arte que combina historias emocionantes con una animación impresionante.
+
+Aunque no lo hago con frecuencia, me encanta salir a montar bicicleta por mi hermosa ciudad. Quito tiene parques maravillosos como el Parque Metropolitano y el Parque La Carolina, donde puedo disfrutar del aire fresco y la belleza natural. Montar bicicleta es una excelente manera de relajarse y mantenerse activo.
 
 
 <!-- Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
