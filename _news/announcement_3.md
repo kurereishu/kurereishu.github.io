@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Inició el curso báisco de python con más de 8 horas en YouTube :sparkles: :smile:🗿
+Inicié el curso básico de python con más de 8 horas en YouTube :sparkles: :smile:🗿
