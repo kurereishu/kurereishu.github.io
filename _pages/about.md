@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Sobre mi
+title: about
 permalink: /
 subtitle: Estudiante de <a href='https://webhistorico.epn.edu.ec/oferta-academica/grado/ingenieria-tecnologia/carreras-de-grado/rra-computacion/'> Ingeniería en Ciencias de la Computación.</a>. Interesado en la Ciberseguridad y la programación.
 
