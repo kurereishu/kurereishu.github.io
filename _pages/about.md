@@ -6,7 +6,7 @@ subtitle: Estudiante de <a href='https://webhistorico.epn.edu.ec/oferta-academic
 
 profile:
   align: right
-  image: skirk.jpg
+  image: iam.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Escuela Politécninca Nacional</p>
