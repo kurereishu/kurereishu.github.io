@@ -180,6 +180,9 @@ La pestaña de facturas nos permite almacenar y gestionar las facturas mismas qu
 
 El sistema de ventas desarollado en Java y utilizando MySQL nos ofrece una solución robusta y eficiente para la gestión de ventas además de la integración de Java para la lógica de negocio y MySQL para el almacenamiento de datos nos proporciona una plataforma confiable y escalabre para el crecimiento futuro del negocio.
 
+El projecto lo puedes encontrar en mi perfil de GitHub:
+[https://github.com/kurereishu/Sistema-de-Ventas.git](Sistema de Ventas)
+
 <!--- 
 {% raw %}
 

@@ -26,23 +26,17 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+Soy un estudiante que le apasiona la carrera de Ciencias de la Computación, siempre buscando nuevas experiencias y desafíos. Desde juegos simples como el tres en raya hasta deportes extremos, me encanta explorar y probar cosas nuevas. Este año, por ejemplo, descubrí el tubing, una actividad que me fascinó por la adrenalina y la conexión con la naturaleza y los deportes extremos.
 
-Estudiante de Ciencias de la Computación
+Sobre mis gustos empezando por la música, me gusta las que son en inglés y bandas como AC/DC, ZZ Top, Linkin Park y Billy Idol han sido una parte importante de mi vida además que es mi manera favorita para quitar el estrés y despejar la mente.
 
-Soy un estudiante apasionado de la carrera de Ciencias de la Computación, siempre buscando nuevas experiencias y desafíos. Desde juegos simples como el tres en raya hasta deportes extremos, me encanta explorar y probar cosas nuevas. Este año, por ejemplo, descubrí el tubing, una actividad que me fascinó por la adrenalina y la conexión con la naturaleza.
+Mi interés por la ingeniería comenzó en mi infancia, influenciado por los géneros "mecha" y las historias de robots. Mazinger Z fue una gran influencia para mí así como películas como Astroboy, Iron Man y El Gigante de Hierro. Estas historias despertaron mi curiosidad por la tecnología y la innovación, llevándome a elegir una carrera en Ciencias de la Computación.
 
-La música en inglés es una de mis grandes pasiones. Bandas como AC/DC, ZZ Top, Linkin Park y Billy Idol han sido una parte importante de mi vida. La energía y las letras de sus canciones me inspiran y me acompañan en mis momentos de estudio y relajación.
+Actualmente, uno de mis mayores intereses es la ciberseguridad y me llama mucho la atención el pentesting, este año he estado practicando con máquinas de prueba en Hack The Box que es una plataforma que me permite desarrollar habilidades en un entorno seguro y controlado, además de que me permite poder familiarizarme con Kali Linux. 
 
-Mi interés por la ingeniería comenzó en mi infancia, influenciado por los géneros "mecha" y las historias de robots. Mazinger Z fue una gran influencia, así como películas como Astroboy, Iron Man y El Gigante de Hierro. Estas historias despertaron mi curiosidad por la tecnología y la innovación, llevándome a elegir una carrera en Ciencias de la Computación.
+Además de la ciberseguridad, me interesa mucho la programación, y este año he comenzado a aprender Python, un lenguaje versátil y poderoso. También he estado explorando Visual Studio Code, una herramienta que me ha encantado por su utilidad y facilidad de uso. Esto ha hecho que el proceso de aprendizaje sea más agradable y eficiente. Además, es un entorno ampliamente utilizado en la industria, lo que lo convierte en una excelente elección para comenzar.
 
-Actualmente, uno de mis mayores intereses es la ciberseguridad. He estado practicando con máquinas de prueba en Hack The Box, una plataforma que me permite desarrollar habilidades en un entorno seguro y controlado. La ciberseguridad es un campo fascinante y con mucho potencial para el futuro, y estoy emocionado por las oportunidades que ofrece.
-
-Además de la ciberseguridad, disfruto mucho de la programación. Este año estoy aprendiendo Python, un lenguaje versátil y poderoso, utilizando Visual Studio Code. Esta herramienta es muy útil y fácil de usar, lo que hace que el proceso de aprendizaje sea más agradable y eficiente.
-
-En mi tiempo libre, me gusta jugar videojuegos como League of Legends, Halo y Genshin Impact. Estos juegos no solo son entretenidos, sino que también me permiten desarrollar habilidades estratégicas y de trabajo en equipo. También disfruto viendo anime, una forma de arte que combina historias emocionantes con una animación impresionante.
-
-Aunque no lo hago con frecuencia, me encanta salir a montar bicicleta por mi hermosa ciudad. Quito tiene parques maravillosos como el Parque Metropolitano y el Parque La Carolina, donde puedo disfrutar del aire fresco y la belleza natural. Montar bicicleta es una excelente manera de relajarse y mantenerse activo.
-
+En mi tiempo libre, suelo juegar algunos videojuegos de pc o consola, también disfruto salir a caminar, dar paseos en bicicleta y ver algún video con información sobre tecnología o ciencia.
 
 <!-- Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

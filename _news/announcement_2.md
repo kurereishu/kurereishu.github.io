@@ -25,4 +25,11 @@ El curso *Fundamentos de Python 1* ofrecido por **Cisco Networking Academy** en 
 ---
 > Al culminar el curso tuve acceso a un certificado de culminación , que es un reconocimiento de la Cisco Networking Academy por completar el curso de Fundamentos además de una insignia.
 
-<img src="/assets/img/certificado_python_christian_ayala.jpg" alt="Skirk" class="img-fluid z-depth-1 rounded float-right" style="max-width: 30%; margin-left: 15px; margin-bottom: 15px;">
+
+
+<div style="text-align: center;">
+  <img src="/assets/img/certificado_python_christian_ayala.jpg" 
+       alt="Certificado Python" 
+       class="img-fluid z-depth-1 rounded" 
+       style="max-width: 50%; margin: 15px auto;">
+</div>
